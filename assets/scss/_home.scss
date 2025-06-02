@@ -1,0 +1,35 @@
+#sectionOne{
+    padding: 3rem 0;
+    background-color: #FFF6EF;
+    .box-right{
+        padding-left: 30px;
+        h1{
+            width: 70%;
+            font-weight: 500;
+            margin: 15px 0;
+        }
+        p{width: 70%;
+            font-size: 17px;
+
+        }
+        a{
+            background-color: orange;
+            color: white;
+            padding: 20px 25px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            border-radius: 50px;
+            transform: translateY(10px);
+            transition: 0.5s;
+
+            &:hover{
+                transform: translateY(0);
+                
+            }
+            
+        }
+
+    }
+
+}

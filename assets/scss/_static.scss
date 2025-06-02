@@ -1,0 +1,44 @@
+#header{
+    
+    background-color: #FFF6EF;
+    
+    
+    .logo{
+        width: 30%;
+        // border: 3px solid black;
+        img{
+            width: 150px;
+        }
+       
+    }
+
+    ul{
+        width: 70%;
+        // border: 3px solid black;
+        li{
+            a{
+                text-decoration: none;
+                color: black;
+                padding: 25px 20px;
+                display: inline-block;
+                i{
+                    color: orangered;
+                }
+            }
+        }
+
+    }
+    .nav-right{
+        display: flex;
+
+        span{
+            i{
+                color: orangered;
+                padding: 0 20px;
+            }
+        }
+    }
+    
+        }
+    
+
