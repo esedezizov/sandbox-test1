@@ -56,4 +56,79 @@
 }
 #sectionOne .box-right a:hover {
   transform: translateY(0);
+}
+
+#sectionTwo {
+  padding: 4rem 0;
+  width: 100%;
+}
+#sectionTwo .boxtext {
+  text-align: center;
+}
+#sectionTwo .boxtext h6 {
+  color: gray;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+}
+#sectionTwo .boxtext h1 {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+}
+#sectionTwo .boxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  width: 100%;
+  position: relative;
+}
+#sectionTwo .boxes .box {
+  width: 22%;
+  height: 350px;
+  background-color: white;
+  border: 1px solid;
+  text-align: center;
+  border-radius: 10px;
+}
+#sectionTwo .boxes .box i {
+  padding: 2rem 0;
+}
+#sectionTwo .boxes .box a {
+  color: orange;
+}
+#sectionTwo .boxes .box p {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+#sectionTree {
+  padding: 4rem 0;
+}
+#sectionTree .box-left h4 {
+  color: gray;
+}
+#sectionTree .box-left h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  width: 90%;
+  margin: 20px 0;
+}
+#sectionTree .box-left button {
+  background-color: orange;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+#sectionTree .box-left input {
+  padding: 10px 15px;
+}
+#sectionTree .box-left p {
+  width: 70%;
+}
+#sectionTree .box-right img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
